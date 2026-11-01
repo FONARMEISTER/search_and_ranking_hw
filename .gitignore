@@ -8,3 +8,29 @@ indexdir/
 *.pkl
 submission.csv
 .DS_Store
+
+# Downloaded archives and generated indexes
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.sqlite3
+*.sqlite3-*
+
+# Competition data stays local; seminar fixtures remain part of the course.
+/homeworks/*/vkmarco-*.tsv
+/homeworks/*/objects.csv
+/homeworks/*/sample_submission.csv
+/homeworks/*/replayed.csv
+
+# Local agent configuration and session files
+.agents/
+.codex/
+.claude/
+.cursor/
+.aider*
+AGENTS.md
+CLAUDE.md
+.github/copilot-instructions.md

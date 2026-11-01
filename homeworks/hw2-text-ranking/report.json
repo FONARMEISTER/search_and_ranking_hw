@@ -1,0 +1,26 @@
+{
+  "parameters": {
+    "k1": 2.0,
+    "b_title": 0.3,
+    "b_body": 0.6,
+    "title_weight": 8.0,
+    "url_weight": 0.0,
+    "coverage_weight": 0.3,
+    "phrase_weight": 0.3,
+    "baseline_weight": 0.25
+  },
+  "gain": "exponential",
+  "metric": "nDCG@10",
+  "tie_policy": "expected gain within tied score groups",
+  "document_count": 74848,
+  "fit_query_count": 800,
+  "validation_query_count": 200,
+  "test_object_count": 50353,
+  "fit_baseline": 0.6063425399696094,
+  "fit_model": 0.6234374369516282,
+  "validation_baseline": 0.6173811495640926,
+  "validation_model": 0.6247149062126649,
+  "train_baseline": 0.6085502618885059,
+  "train_model": 0.6236929308038356,
+  "elapsed_seconds": 91.589
+}
